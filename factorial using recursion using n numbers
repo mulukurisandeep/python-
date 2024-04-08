@@ -1,0 +1,11 @@
+def factorial(n):
+    if n == 0:
+        return 1
+    else:
+        return n * factorial(n-1)
+
+def sum_of_n_numbers(n):
+    return (n*(n+1)) // 2
+num = 5
+print(f"Factorial of {num} is: {factorial(num)}")
+print(f"Sum of first {num} numbers is: {sum_of_n_numbers(num)}")
