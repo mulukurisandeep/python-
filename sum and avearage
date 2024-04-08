@@ -1,0 +1,9 @@
+numbers = [10, 20, 30, 40, 50]
+
+
+sum_numbers = sum(numbers)
+print("Sum:", sum_numbers)
+
+
+average = sum_numbers / len(numbers)
+print("Average:", average)
